@@ -1,1 +1,1 @@
-# PhoneBookApp-automation-testing
+# Protractor-TypeScript-testing-exercise
