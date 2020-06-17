@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-describe('Calculator test', () => {
+describe('Adding new contact test', () => {
 	beforeEach(() => {
 		browser.waitForAngularEnabled(false);
 		browser.get('https://popescu-iulian.github.io/Phone-Book-app/');
