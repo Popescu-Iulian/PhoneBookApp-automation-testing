@@ -8,7 +8,10 @@ describe('Adding new contact test', () => {
 
 	it('Add a contact', () => {
 		element(by.className('name')).sendKeys('Iulian');
+		browser.sleep(2000);
 		element(by.className('phone')).sendKeys('73452675843');
+		browser.sleep(2000);
 		element(by.className('btn')).click();
+		browser.sleep(2000);
 	});
 });
